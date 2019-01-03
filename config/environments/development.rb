@@ -59,5 +59,5 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   # config.action_cable.disable_request_forgery_protection = true
-  config.action_cable.allowed_request_origins = ['https://rubyonrails-micha3lvo.c9users.io']
+  config.action_cable.allowed_request_origins = ['https://rubyonrails-micha3lvo.c9users.io', 'https://messageme-michaelvo.herokuapp.com/']
 end
